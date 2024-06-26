@@ -42,9 +42,7 @@ const Footer = () => {
                             <p>India's heritage and traditions are a rich tapestry of ancient wisdom, diverse cultural practices, and artistic brilliance.</p>
 
                             <div className='social__links d-flex align-items-center gap-4'>
-                                // <span>
-                                //     <Link to='#'><i class="ri-youtube-line"></i></Link>
-                                // </span>
+                               
 
                                 <span>
                                     <Link to='https://github.com/vidja-abhay/'><i class="ri-github-fill"></i></Link>
