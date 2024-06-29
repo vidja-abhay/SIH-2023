@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import CommonSection from '../shared/CommonSection'
 import '../styles/heritage.css'
 import TourCard from '../shared/TourCard'
@@ -8,6 +8,10 @@ import { Container, Row, Col } from 'reactstrap'
 import tourData from '../assets/data/tours'
 
 const Heritage = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
 
     const [currentPage, setCurrentPage] = useState(1)
     const recordsPerPage = 4;
