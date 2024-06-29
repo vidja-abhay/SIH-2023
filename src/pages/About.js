@@ -1,8 +1,12 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import '../styles/about.css'
 import Subtitle from '../shared/Subtitle'
 
 const About = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+  
   return (
     <div className="about-page">
       {/* <h1>About Swarnim Bharat</h1> */}
