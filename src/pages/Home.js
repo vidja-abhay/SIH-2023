@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 import '../styles/home.css'
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../assets/images/hr.jpg'
@@ -20,6 +20,9 @@ import Quotes from '../qoutes/Quotes'
 // import Newsletter from '../shared/Newsletter'
 
 const Home = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
     return (
         <>
             {/* ================== hero section start =================== */}
